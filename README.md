@@ -42,8 +42,8 @@ Register no.: 212222230075
     This code implements the interleaved and neighbor-paired approaches to
     parallel reduction in CUDA. For this example, the sum operation is used. A
     variety of optimizations on parallel reduction aimed at reducing divergence
-    are also demonstrated, such as unrolling. */
-
+    are also demonstrated, such as unrolling.
+*/
 // Recursive Implementation of Interleaved Pair Approach int recursiveReduce(int *data, int const size) { // terminate check if (size == 1) return data[0];
 ```
 // renew the stride
